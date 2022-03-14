@@ -1,0 +1,124 @@
+/*ME*/
+.me{
+    width: 550px;
+}
+body {
+    font-size: 'Roboto' , sans-serif;
+}
+h2 {
+    font-size: 1.5em;
+}
+.nav-link {
+    color: black !important;
+}
+/*hello*/
+.hello{
+font-size: 1.5em;
+font-weight: lighter;
+}
+.moi {
+font-size: 1.5em;
+}
+.moipj {
+    color: grey;
+    font-size: 16px;
+}
+.moibt a {
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    font-size: .7em;
+}
+h3 {
+    text-align: center;
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
+    text-transform: uppercase !important;
+}
+h4 {
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.icone {
+    width: 40px;
+}
+.cpte {
+    text-align: center;
+}
+.cpte div {
+    padding: 30px;
+}
+.cpte div:nth-child(3){
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+/* PORTFOLIO */
+.prtf {
+    margin-bottom: 20px;
+}
+.prtf div img {
+    width: 280px;
+}
+/* PERSO */
+.flm div:first-child {
+    margin-left: 100px;
+}
+.flm div:first-child p {
+    font-size: .8em;
+    color: grey;
+    width: 80%;
+}
+button {
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 100px !important;
+}
+/* BOULOT */
+.blt {
+    text-align: center;
+}
+.blt h2 {
+    margin-top: 50px;
+    font-size: 1.8em;
+}
+.blt img {
+    width: 50px; 
+}
+.blt p {
+    width: 80%;
+    margin: 50px auto;
+}
+/* FOOTER */
+.fmenu {
+    text-align: center;
+}
+.fmenu div ul.nav {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fmenu div ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.fmenu div ul li {
+    margin-left: 20px;
+}
+.fmenu div p {
+    font-size: 1em;
+    color: grey;
+}
+.fmenu img {
+    width: 40px;
+}
