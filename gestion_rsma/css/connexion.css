@@ -1,0 +1,26 @@
+
+div.en_tete{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+
+.btn.btn-primary.btn-lg.btn-block {
+    margin-top: 7px;
+    margin-left: 188px !important;
+}

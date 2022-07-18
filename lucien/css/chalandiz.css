@@ -1,0 +1,30 @@
+/**/
+
+
+
+
+
+
+
+
+/*page*/
+div.gauche {
+    background-color: #4ec0b0;
+}
+div.gauche img {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    display: block;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 25%;
+    border-radius: 50%;
+
+    
+}
+div.reponse {
+    height: 350px;
+    width: 640px;
+    border: 1px solid black;
+}

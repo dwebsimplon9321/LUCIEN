@@ -1,0 +1,42 @@
+{% extends 'b.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Liste</h1>
+        {{ dump(adherants)}}
+
+        <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Prenom</th>
+            <th scope="col">Email</th>
+            <th scope="col">Téléphone</th>
+            <th scope="col">Autre information</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for adherant in adherants %}
+            <tr>
+            <th scope="row">{{adherant.adherantid}}</th>
+            <td>{{adherant.nom}}</td>
+            <td>{{adherant.prenom}}</td>
+            <td>{{adherant.email}}</td>
+            <td>{{adherant.portable}}</td>
+            <td><a href="{{ path('accueil_detail',{id: adherant.adherantid}) }}"title="Afficher les détailles"> Autre information</a></td>
+            </tr>
+            <tr>
+        {% endfor %}
+        </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

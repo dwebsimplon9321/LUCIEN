@@ -1,0 +1,148 @@
+html {
+    width: auto;
+}
+
+
+/*
+BASE
+*/
+h3 {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    color: white;
+    font-size: 14px;
+}
+a {
+    font-size: 14px;
+}
+.j {
+    color: #FFC000;
+}
+
+/*
+MENU
+*/
+.navbar-light .navbar-brand {
+    color: #FFC000 !important;
+    border-bottom: 1px solid white;
+  }
+  .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: #FFC000 !important;
+    border-bottom: 1px solid white;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #FFC000 !important;
+    border-bottom: 1px solid white;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FF8A00;
+    border-bottom: 1px solid #FF8A00;
+  }
+.navbar-light, .bg-light {
+    background-color: white !important;
+}
+a.logo {
+    width: 20%;
+}
+a.logo > img {
+    width: 50%;
+}
+
+/*
+BOUTON
+*/
+.bt {
+    background: linear-gradient(to bottom right, #FF8A00, #FFC000);
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.bt:hover {
+    color: white;
+}
+/*
+CART ICONE
+*/
+.cartM {
+    margin: auto 20px auto 20px;
+}
+
+
+/*
+FOOTER 
+*/
+footer {
+    background-color: #212121;
+}
+.footerb {
+    background-color: black;
+    padding-top: 10px;
+    height: 40px;
+}
+footer h3 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+footer p, .footerb p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+footer a img, .footerb a img {
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+.footmb {
+    margin-top: 100px;
+}
+.credit {
+    display: flex;
+}
+ul.credit li {
+    width: 100px;
+}
+
+
+
+/**/
+
+.fmenu img {
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.prtf {
+    margin-bottom: 10px;
+}
+.prtf div img {
+    width: 261px;
+    display: flex;
+}
+
+.prtf div p {
+    background: linear-gradient(to bottom right,#FF8A00, #FFC000); ;
+    color: white;
+}
+
+.avatar {
+ text-align: center;
+ margin-top: 100px;
+ margin-bottom: 30px;
+}

@@ -1,0 +1,31 @@
+body {
+    background-image: url("../stage/cuvettes-et-plage-de-café-14836183.jpg");
+    background-size: cover;
+    
+}
+
+div.en_tete{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttonv {
+    padding-top: 30px;
+}
+
+.btv{
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

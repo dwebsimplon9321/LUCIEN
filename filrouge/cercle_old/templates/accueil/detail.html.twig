@@ -1,0 +1,26 @@
+{% extends 'b.html.twig' %}
+{% block title %}Détail{% endblock %}
+
+{% block body %}
+<div class="album py-5 bg-light">
+    <div class="container">
+    {{ dump(detailA) }}
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <h2 class="text-center">{{ detailA.nom }} {{ detailA.prenom }}</h2>
+            <div class="card-body">
+              <p class="card-text">Votre adresse :</p>
+              <p class="card-text">{{ detailA.adresse }} {{ detailA.suite }}</p>
+              <p class="card-text">{{ detailA.cp }} {{ detailA.commune }}</p>
+            </div>
+            <a href="{{ path('accueil_update', {id: detailA.adherantid}) }}" title="Modifier la fiche adhérant" class="btn btn-success">Modifier la fiche adhérant.</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="container">
+  <a href="{{ url('accueil_liste', schemeRelative = false) }}" title="Revenir sur la liste des adhérants">Revenir à la liste des adhérants.</a>
+  </div>
+  {% endblock %}

@@ -1,0 +1,57 @@
+
+.green {
+  background-color: #4ec0b0;
+}
+.emd{
+  height:970px;
+}
+
+
+.btnP {
+    background-color: #e2dfdf;
+    color: rgb(161, 161, 161);
+    font-weight: bolder;
+    border-radius: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border: none;
+  }
+  
+  .btnP:hover{
+    filter: contrast(60%);
+  }
+  
+  .btnS {
+    background-color: #f37150;
+    color: white;
+    font-weight: bolder;
+    border-radius: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border: none;
+  }
+  
+  .btnS:hover{
+    filter: contrast(60%);
+  }
+
+
+
+
+
+  .input-group-append {
+    cursor: pointer;
+  }
+
+  .txt {
+    text-align: center;
+    background-color: #4ec0b0;
+  }
+
+  .border {
+    margin-top: 30px;
+  }

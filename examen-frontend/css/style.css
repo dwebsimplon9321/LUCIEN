@@ -1,0 +1,74 @@
+div.col:first-child {
+    background-color: mediumpurple;
+}
+div.col:first-child {
+    font-size: 15px;
+}
+.adresse {
+    margin-left: 150px;
+}
+.adresse.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 150px;
+}
+div.col:first-child p:last-child{
+font-size: 10px;
+}
+div.col:first-child img.CV {
+    margin-top: 40px;
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+div.col:first-child ul {
+    list-style: none;
+}
+img.imgCV {
+    width: 100px;
+    margin-left: 80px;
+    border-radius: 150px;
+}
+div.col:first-child img {
+    margin-top: 40px;
+    border-radius: 5px;
+}
+div.col p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+div.col:last-child {
+    background-color: lightseagreen;
+}
+div.col:last-child p {
+    margin-left: 20px;
+}
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 5px;
+    background-color: rgb(219, 149, 18);
+    color: white;
+    font-weight: bold;
+    border-radius: 16px;
+
+}
+h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+div.partie1 a:hover{
+    background-color: indigo;
+
+}

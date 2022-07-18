@@ -9,7 +9,7 @@ body {
     background-color: #333;
     color: #333;
 }
-h1 {
+h1{
     padding: 25px 0;
     color: #f1f1f1;
 }
@@ -20,16 +20,16 @@ h1 {
     width: 70%;
     margin: 30px auto;
 }
-/* animation sur label*/
+/* animation sur label */
 .findPoke label {
     position: absolute;
     padding-left: 210px;
-    top: 16.5%;
+    top: 21%;
     transform: translate(-50%);
-    transition:  all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 /* animation input */
-.findPoke:focus-within label,
+.findPoke:focus-within label, 
 .findPoke.active-input label {
     padding-left: 5px;
     color: #f1f1f1;
@@ -44,10 +44,10 @@ ul.liste-poke {
     flex-wrap: wrap;
     list-style: none;
 }
-
 ul.liste-poke li {
     width: 300px;
     height: auto;
     padding: 15px;
     margin: 5px;
+
 }
